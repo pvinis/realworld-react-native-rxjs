@@ -7,8 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@babel/runtime": "^7.1.2",
     "react": "16.5.0",
-    "react-native": "0.57.1"
+    "react-native": "0.57.1",
+    "rx-react-container": "^0.6.2",
+    "rxjs": "^6.3.3"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
