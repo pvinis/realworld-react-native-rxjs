@@ -1,10 +1,9 @@
 import React from 'react'
 import {
-  FlatList,
   StyleSheet,
-  View,
 } from 'react-native'
 import {
+  Screen,
   ArticleList,
 } from '@Components'
 
@@ -15,17 +14,11 @@ class GlobalArticles
   render() {
     const { props } = this
     return (
-      <ArticleList
-        articles={props.articles}
-      />
+      <Screen>
+        <ArticleList
+          articles={props.articles}
+        />
+      </Screen>
     )
   }
 }
-
-const styles = StyleSheet.create({
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-})

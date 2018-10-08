@@ -9,9 +9,12 @@
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "axios": "^0.18.0",
+    "moment": "^2.22.2",
     "ramda": "^0.25.0",
     "react": "16.5.0",
     "react-native": "0.57.1",
+    "react-navigation": "^2.17.0",
+    "react-navigation-tabs": "^0.8.2",
     "rx-react-container": "^0.6.2",
     "rxjs": "^6.3.3"
   },

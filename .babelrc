@@ -4,8 +4,8 @@
     ["module-resolver", {
       "alias": {
         "@Components": "./App/Components",
-        "@Containers": "./App/Containers",
         "@Helpers": "./App/Helpers",
+        "@Navigation": "./App/Navigation",
         "@Screens": "./App/Screens",
         "@Services": "./App/Services"
       }
